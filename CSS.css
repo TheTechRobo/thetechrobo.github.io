@@ -1,0 +1,16 @@
+body {
+	background: blueviolet;
+	color: White;
+	font-family: sans-serif;
+}
+a {
+	color: Yellow;
+	font-size: 375%;
+}
+html {
+	border: dashed;
+}
+h1 {
+	font-weight: bold;
+	font-size: 275%;
+}
