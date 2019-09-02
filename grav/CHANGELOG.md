@@ -292,7 +292,7 @@
     * Updated Doctrine Cache to 1.8
     * Updated Symfony Components to 4.2
     * Added new Cache purge functionality old cache manually via CLI/Admin as well as scheduler integration
-    * Added new twig tag: {% throw 404 'Not Found' %} (with custom code/message)
+    * Added new twig tag: throw 404 'Not Found' (with custom code/message)
     * Added `Grav\Framework\File` classes for handling YAML, Markdown, JSON, INI and PHP serialized files
     * Added `Grav\Framework\Collection\AbstractIndexCollection` class
     * Added `Grav\Framework\Object\ObjectIndex` class
