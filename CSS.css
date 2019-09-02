@@ -1,16 +1,26 @@
 body {
-	background: blueviolet;
-	color: White;
-	font-family: sans-serif;
+	/* I'm using the fonts listed, each at 100% of their size*/
+	font: 100% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	 /* I am using background colour blue */
+	background-color: #00b9ff;
 }
-a {
-	color: Yellow;
-	font-size: 375%;
+.faster {
+	border: solid;
+	color: #383737;
 }
-html {
-	border: dashed;
+nav {
+	color: #181819;
+	font-size: 35%;
+	border: solid;
 }
-h1 {
-	font-weight: bold;
-	font-size: 275%;
+.page_navigation {
+	border: solid;
+	font-size: 71%;
 }
+.funstuff {
+	color: #181819;
+	font-size: 35%;
+	border: solid
+}
+/*End of stylesheet*/
+/*StyleSheet thegitrobo version 0.1.5*/
