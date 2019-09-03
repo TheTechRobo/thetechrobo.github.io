@@ -325,7 +325,7 @@
     * Added `Grav\Framework\Form\FormFlashFile` class which implements `UploadedFileInterface` from PSR-7
     * Added `Grav\Framework\Filesystem\Filesystem` class with methods to manipulate stream URLs
     * Added new `$grav['filesystem']` service using an instance of the new `Filesystem` object
-    * Added `{% render object layout: 'default' with { variable: true } %}` for Flex objects and collections
+    * Added render object layout: 'default' with { variable: true } for Flex objects and collections
     * Added `$grav->setup()` to simplify CLI and custom access points
     * Added `CsvFormatter` and `CsvFile` classes
     * Added new system config option to `pages.hide_empty_folders` if a folder has no valid `.md` file available. Default behavior is `false` for compatibility.
