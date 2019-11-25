@@ -10,8 +10,10 @@ Welcome to my GitHub website! This website contains info about my best repos
 Also it contains info about me
 
 
-[Drawer](https://thetechrobo.github.io/drawer)
+[Drawer](https://thetechrobo.github.io/drawer)  
+[Beta Website](OptionIndex.html)
 
-
-
-<style type="text/css" rel="stylesheet" href="NewCss.css">
+<style>
+  body {
+    background-color: #3874ff
+</style>
