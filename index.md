@@ -1,6 +1,5 @@
 ---
 title: Index.md
-layout: bluebg
 ---
 
 # TheGitRobo
@@ -14,8 +13,7 @@ Also it contains info about me
 [Drawer](https://thetechrobo.github.io/drawer)  
 [Beta Website](OptionIndex.html)
 
-<!--<style>
+<style>
   body {
     background-color: #3874ff
 </style>
--->
