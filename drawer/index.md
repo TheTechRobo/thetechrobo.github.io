@@ -7,9 +7,15 @@ title: The drawer
 # My Stuff
 
 #### [My Repos](https://github.com/thetechrobo)
-(LATEST AND GREATEST) bglugwatch [info](bginfo.md) [repo](https://github.com/thetechrobo/bglugwatch)
-
-[SECOND GREATEST] slate [info](slinfo.md) [repo](https://github.com/thetechrobo/slate)
+(LATEST AND GREATEST) bglugwatch [info](bginfo.md) [repo](https://github.com/thetechrobo/bglugwatch)  
+[SECOND GREATEST] slate [info](slinfo.md) [repo](https://github.com/thetechrobo/slate)  
+[THIRD GREATEST] palc [info](pinfo.md) [repo](https://github.com/thetechrobo/python-text-calculator)
 
 #### My old TheGitRobo website
 [Link](https://thetechrobo.github.io/oldindex.html)
+
+
+<style>
+  body {
+    background-color: #3874ff
+</style>
