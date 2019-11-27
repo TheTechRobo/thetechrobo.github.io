@@ -7,3 +7,9 @@ However, my recommended use is not to use, but to learn. As this is a crap text 
 I hope it helps to learn about saving files in python3 , and also if/elif/else statements
 
 ~TheTechRobo
+
+
+<style>
+  body {
+    background-color: #3874ff
+</style>
