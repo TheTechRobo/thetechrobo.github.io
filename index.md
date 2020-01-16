@@ -5,13 +5,14 @@ title: Index.md
 # TheGitRobo
 ###### TheTechRobo's GitHub website
 
-Welcome to my GitHub website! This website contains info about my best repos
+Welcome to my GitHub website! This website contains info about my best repos on GitHub
 
-Also it contains info about me
+It also contains info about me
 
 
 [Drawer](https://thetechrobo.github.io/drawer)  
 [Beta Website](OptionIndex.html)
+[My Byethost.com website](http://thetechrobo.byethost8.com)
 
 <style>
   body {
