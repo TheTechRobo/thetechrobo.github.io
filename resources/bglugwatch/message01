@@ -1,39 +1,41 @@
 From: TheTechRobo! <moralater9@gmail.com>
-Subject: Thank you Chris!!!
+Subject: CMOS password reset
+Hey all,
 
-I just wanted to say thank you to LP for bringing all that stuff!
-Thank you so much!
+I have a Windows 95 Packard Bell PC. As I was setting a cmos password on boot, it saved it wrong. While my password I typed was 'nono', it doesn't work. I tried NONO, noni, and other ones but no luck :(
 
+So I tried the failsafe BIOS passwords. The ones for Phoenix BIOS did not work (bios, BIOS, cmos, CMOS, phoenix, PHOENIX).
 
-Sincerely,
+So then I tried overloading the keyboard buffer (ESC on boot, unplug keyboard and mouse…) and no luck.
 
-Anthony
+Then I tried removing the battery to see that it is soldered on.
 
+The jumper reset did not work, maybe it was the wrong jumper but I am not risking the mobo to find out…
+
+Does anyone have an idea on what to do, as an easy fix? My last resort is Computer Service Centre downtown.
+
+Thanks a bunch!
 
 Best regards,
 
-
 TheTechRobo
-
-
-
 Find me on GitHub @TheTechRobo
 
+[REPLY] from Owen Daigle <owen.daigle@outlook.com>
+[Not on the BGLUG mailing list]
+Do you have a soldering iron, or know someone who does. If so, the battery could be removed that way.
 
-------- |    ---- ------ ---- ----- |    |--- ---- |---- ----
-   |    |    |  |   |   |   | |     |    |  | |  | |   | |  |
-   |    |    ----   |   ----- |     |--- |--- |  | |---- |  |
-   |    |--- |      |   |     |     |  | |\   |  | |   | |  |
-   |    |  | |___   |   |____ |____ |  | | \  |--| |---| |--|
+Also maybe see if there are any pins on the mobo called bios reset or something similar and try to short them (connect a screwdriver to both of them to complete the circuit.
 
+[REPLY II] from Andrew Howlett <andrew@howlett.net>
+maybe your hand slipped. try mpmp or bibi
 
-[REPLY]
-From: LP <LPCC@pm.me
+[REPLY III] from Robert Gibson <dmgg@rogers.com>
+I had a similar issue a few years ago with a Toshiba laptop. No joy. Last resort, unsolder the battery. (I didn't have the nerve).
+Good luck.
 
-You are very welcome !
-LP
+Sent from my iPad
 
-
-Sent from ProtonMail, encrypted email based in Switzerland.
-
-Sent with ProtonMail Secure Email.
+[REPLY IV] from TheTechRobo! <moralater9@gmail.com>
+[Not on the mailing list]
+i'll look for bios reset in the mobo. i wouldn't do desoldering as i am inexperienced at best :(
