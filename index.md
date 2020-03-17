@@ -14,7 +14,7 @@ It also contains info about me
 [Beta Website](OptionIndex.html)  
 [My Byethost.com website](http://thetechrobo.byethost8.com)  
 [Save lives!](http://chng.it/4vHGN86bXJ)  
-[My Daily Driver](https://elivecd.org)
+[My Daily Driver](https://www.elivecd.org)
 
 <style>
   body {
