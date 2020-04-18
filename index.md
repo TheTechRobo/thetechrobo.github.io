@@ -11,15 +11,14 @@ It also contains info about me
 
 
 [Drawer](https://thetechrobo.github.io/drawer)  
-[Beta Website](OptionIndex.html)  
+[Blog](OptionIndex.html)  
 [My Byethost.com website](http://thetechrobo.byethost8.com)  
 [Save lives!](http://chng.it/4vHGN86bXJ)  
 [My Daily Driver](https://www.elivecd.org)
+[Beta Website](https://thetechrobo.github.io/webbox)
 
 <style>
   body {
     background-color: #3874ff
   }
 </style>
-
-<div align='center'><a href='https://www.hit-counts.com/'><img src='http://www.hit-counts.com/counter.php?t=MTQ0NzY5OA==' border='0' alt='professional logo design'></a><BR><a href='https://www.glowgraphics.co.uk/'>professional logo design</a></div>
