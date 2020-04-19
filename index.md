@@ -1,5 +1,5 @@
 ---
-title: Index.md
+title: Archived website
 ---
 
 # TheGitRobo
@@ -14,7 +14,7 @@ It also contains info about me
 [Blog](OptionIndex.html)  
 [My Byethost.com website](http://thetechrobo.byethost8.com)  
 [Save lives!](http://chng.it/4vHGN86bXJ)  
-[My Daily Driver](https://www.elivecd.org)
+[My Daily Driver](https://www.elivecd.org)  
 [Beta Website](https://thetechrobo.github.io/webbox)
 
 <style>
