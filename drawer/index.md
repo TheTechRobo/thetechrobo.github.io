@@ -8,7 +8,7 @@ title: The drawer
 
 #### [My Repos](https://github.com/thetechrobo)
 (LATEST AND GREATEST) bglugwatch [info](bginfo.md) [repo](https://github.com/thetechrobo/bglugwatch)  
-[SECOND GREATEST] palc [info](pinfo.md) [repo](https://github.com/thetechrobo/python-text-calculator)
+[SECOND GREATEST] palc [info](pinfo.md) [repo](https://github.com/thetechrobo/python-text-calculator)  
 [THIRD GREATEST] slate [info](slinfo.md) [repo](https://github.com/thetechrobo/slate)  
 
 #### My old TheGitRobo website
