@@ -1,4 +1,4 @@
-# bglugwatch v.0.2.11-wip
+# bglugwatch v.0.2.11-stable
 # copyright (c) 2019-2020 ittussarom retals mail ynohtna
 # BGLUGwatch is licensed under the GNU GPLv3 or later, a copyleft license.
 # copyleft states that it is illegal to switch to a different license without the explicit permission of TheTechRobo
@@ -73,7 +73,7 @@ def hello():
     insert("The bglug.ca domain was purchased in November 2002. After several months, the forums were added and then eventually our own mailing list.")
     insert("We are constantly evolving and gladly welcome any constructive feedback and suggestions. If you have any thoughts about the group, please let us know!")
     insert("")
-    insert("BGLUGwatch v.0.2.10-stable, copyright (c) Ittussarom Retals Mail Ynohtna. Licensed under the GNU GPLv3.")
+    insert("BGLUGwatch v.0.2.11-stable, copyright (c) Ittussarom Retals Mail Ynohtna. Licensed under the GNU GPLv3.")
     insert("Find me on GitHub at: www.github.com/thetechrobo/bglugwatch-cleanslate")
     insert("Thanks for using!")
     mylist.pack(fill = BOTH)
@@ -161,8 +161,11 @@ def moreinfomeeting():
     See you there!'''
     Label(more, text=message).pack()
     Button(more, text="OK", command=more.destroy)
+def gotomeeting():
+    webbrowser.open("https://meet.jit.si/bglug", new=1)
 ttk.Label(TAB1, text="Meet on https://meet.jit.si/bglug 1st Tuesday of May @ 7pm").pack()
 ttk.Button(TAB1, text="More info...", command=moreinfomeeting).pack()
+ttk.Button(TAB1, text="Click here for video chat on May 5 at 7pm", command=gotomeeting).pack()
 #For tab 2
 def abtlin():
     abtlin = Toplevel()
