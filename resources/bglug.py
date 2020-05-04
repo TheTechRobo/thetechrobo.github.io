@@ -281,7 +281,7 @@ For messages direct to your mailbox, go to http://bglug.ca/mailman/listinfo/grou
 up for the mailing list!''').pack()
 #TAB4
 ttk.Button(TAB4, text="Update cache", command=uc).pack()
-ttk.Label(TAB4, text="This button will update the cache of BGLUGwatch. It will not work if you didn't git clone the repo as it requires the .git subfolder. So, if you didn't clone the repo, don't touch this.").pack()
+ttk.Label(TAB4, text="This button will update the cache of BGLUGwatch. \nIt will not work (and will say that it worked) if you didn't git clone the repo as it requires the .git subfolder. So, if you didn't clone the repo, don't touch this.").pack()
 # MENUBAR
 # create a pulldown menu, and add it to the menu bar
 filemenu = Menu(menubar, tearoff=0)
