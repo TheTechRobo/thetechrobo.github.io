@@ -156,16 +156,16 @@ def moreinfomeeting():
     more.title('Online Jitsi meeting May 5, 2020')
     # display message
     message = '''The next BGLUG meeting has been proposed:
-    Meet on Jitsi (open-source video chat) at: https://meet.jit.si/bglug on: May 5 @ 7pm.
-    Topic: Features of Jitsi, presentations welcome! (Propose a presentation on the mailing list.)
+    Meet on Jitsi (open-source video chat) at: https://meet.jit.si/bglug on: TBA @ 7pm.
+    Topic: TBA
     See you there!'''
     Label(more, text=message).pack()
     Button(more, text="OK", command=more.destroy)
 def gotomeeting():
     webbrowser.open("https://meet.jit.si/bglug", new=1)
-ttk.Label(TAB1, text="Meet on https://meet.jit.si/bglug 1st Tuesday of May @ 7pm").pack()
+ttk.Label(TAB1, text="Meet on https://meet.jit.si/bglug TBA @ 7pm").pack()
 ttk.Button(TAB1, text="More info...", command=moreinfomeeting).pack()
-ttk.Button(TAB1, text="Click here for video chat on May 5 at 7pm", command=gotomeeting).pack()
+ttk.Button(TAB1, text="Click here for video chat on TBA at 7pm", command=gotomeeting).pack()
 #For tab 2
 def abtlin():
     abtlin = Toplevel()
@@ -309,5 +309,5 @@ menubar.add_cascade(label="Utilities", menu=utilmnu)
 # display the menu
 main.config(menu=menubar)
 # show message on launch
-msg.showinfo("Online meeting May 5, 2020 @ 7pm", "There is a meeting this month, see more details by clicking `More info...' inside the `Next meeting' tab (the first one)")
+msg.showinfo("Thank you!", "Thank you all BGLUG members for a Great Meeting! See you next month!")
 main.mainloop()
