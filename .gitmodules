@@ -1,0 +1,3 @@
+[submodule "devExamples"]
+	path = devExamples
+	url = git@github.com:TheTechRobo/devExamples
