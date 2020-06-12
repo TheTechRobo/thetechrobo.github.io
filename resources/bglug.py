@@ -11,39 +11,34 @@ from tkinter import messagebox as msg
 from tkinter import *
 import subprocess
 from sys import exit
-import webbrowser
+import webbrowser #for opening links
 from tkinter.ttk import * #so that all widgets use themes
 # set up window
 main = tkinter.Tk()
 menubar = Menu(main)
 main.title("BGLUGwatch")
-try:
+try: #If user has ttkthemes installed
     from ttkthemes import ThemedStyle
     s = ThemedStyle(main)
-    s.set_theme("elegance")
-except:
+    s.set_theme("elegance") #use theme elegance
+except: #if the user doesn't have ttkthemes installed
     s = ttk.Style()
-    s.theme_use('clam')
+    s.theme_use('clam') #use a decent theme, but not as good as elegance
 # DECLARING
 def uc(): #source stackoverflow.com/questions/4760215/running-shell-command-and-capturing-the-output/9266901#9266901
     msg.showinfo("Attempting to update...", "Please wait while git does its job.")
     output = subprocess.Popen(["git pull"],stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True) #Prepare the git pull
     response = output.communicate() #run git pull and get the output
-    if response == (b'Already up to date.\n', None):
-        print("Already up to date.")
-        msg.showinfo("Already up to date.", "You can use BGLUGwatch freely!")
-    elif response == (b'Already up-to-date.\n', None):
-        print("Already up-to-date.")
-        msg.showinfo("Already up to date.", "You can use BGLUGwatch freely!")
-    elif response == (b'Already up to date.\n', b''):
-        print("Already up to date.")
-        msg.showinfo("Already up to date.", "You can use BGLUGwatch freely!!")
-    elif response == (b'Already up-to-date.\n', b''):
-        msg.showinfo("Already up-to-date.", "You can use BGLUGwatch freely!")
-    elif response == (b'', b'fatal: not a git repository (or any of the parent directories): .git\n'):
+    response, _ = response
+    response = response.decode("UTF-8")
+    if  'Already up to date' in response:
         print(response)
-        msg.showerror("Error!", "There was an error updating BGLUGwatch.")
-    elif response == (b'', b'fatal: not a git repository: .git\n'):
+        msg.showinfo("Already up to date.", "You can use BGLUGwatch freely!")
+    elif 'Already up-to-date' in response:
+        print(response)
+        msg.showinfo("Already up to date.", "You can use BGLUGwatch freely!")
+#if an error occurs
+    elif 'fatal: ' in response:
         print(response)
         msg.showerror("Error!", "There was an error updating BGLUGwatch.")
     else:
@@ -53,7 +48,7 @@ def uc(): #source stackoverflow.com/questions/4760215/running-shell-command-and-
 def clist(winname): #create list & scrollbar
     scrollbar = Scrollbar(winname) #add scrollbar
     scrollbar.pack(side=RIGHT, fill=Y) #pack scrollbar
-    mylist = Listbox(winname, yscrollcommand=scrollbar.set)#create list
+    mylist = Listbox(winname, yscrollcommand=scrollbar.set) #create list
     scrollbar.config(command = mylist.yview)
     return mylist #return list
 def hello():
@@ -62,14 +57,14 @@ def hello():
     # create child window
     # display message
     mylist = clist(win) #create list & scrollbar
-    def insert(string):
+    def insert(string=""):
         mylist.insert(END, string)
     insert("The Bruce Grey Linux Users Group (BGLUG) was founded in 2000 to bring local Linux users together and to help newcomers to Linux.")
     insert("The group holds monthly meetings, gives technical presentations, distributes Linux CD-ROMs and hosts a web site, www.bglug.ca, which provides online support.")
     insert("The Bruce-Grey Linux Users Group is currently centered in Owen Sound, but has members scattered around Bruce and Grey counties. The group is freely open to everyone.")
     insert("We gather together for four main reasons:")
     insert("advocacy, education, support, and socializing.")
-    insert("")
+    insert()
     insert("Bruce Grey Linux User's Group was originally founded by Richard Court in early 2000. Richard Court, Brad Rodriguez, Andrew Howlett ")
     insert("and Dan Eriksen have been key members since its creation.")
     insert("Richard has given up control of BGLUG to the current active maintainer, Dan Eriksen (site admin, LPIC-1 certified).")
@@ -78,7 +73,7 @@ def hello():
     insert("and helping to keep the group going.")
     insert("The bglug.ca domain was purchased in November 2002. After several months, the forums were added and then eventually our own mailing list.")
     insert("We are constantly evolving and gladly welcome any constructive feedback and suggestions. If you have any thoughts about the group, please let us know!")
-    insert("")
+    insert()
     insert("BGLUGwatch v.0.2.11-stable, copyright (c) Ittussarom Retals Mail Ynohtna. Licensed under the GNU GPLv3.")
     insert("Find me on GitHub at: www.github.com/thetechrobo/bglugwatch-cleanslate")
     insert("Thanks for using!")
@@ -92,24 +87,24 @@ def showMessageTwo(): #Message two
     m2 = Toplevel() #create window
     m2.title("Message 1")
     mylist = clist(m2)
-    def insert(string):
+    def insert(string=""):
         mylist.insert(END, string)
     insert("Message from LP")
-    insert("")
+    insert()
     insert("I just got the word 'All LUG meetings at the United Way are cancelled until further notice' Chris.")
     insert("Sent from ProtonMail <protonmail.ch>, encrypted email based in Switzerland.")
-    insert("")
+    insert()
     insert("Reply from TtR")
-    insert("")
+    insert()
     insert("Well, I'm sad, but it was bound to happen.")
     insert("Sent from TtR's iPhone 4")
-    insert("")
+    insert()
     insert("Reply from Brad Rodriguez")
-    insert("")
+    insert()
     insert("I have updated the web page to show this.")
-    insert("")
+    insert()
     insert("- Brad")
-    insert("")
+    insert()
     insert("Reply from Logan Streondj")
     insert("How about we meet on Jitsi (open-source video chat)")
     insert("https://meet.jit.si/bglug")
@@ -120,14 +115,14 @@ def ShowMessageOne(): #message one
     print("Showing messages...")
     m1 = Toplevel()
     mylist = clist(m1)
-    def insert(string):
+    def insert(string=""):
         mylist.insert(END, string)
     insert("Message from LP")
-    insert("")
+    insert()
     insert("Hi all, ")
     insert("I hope everyone is well, I have been thinking about you all.")
     insert("Chris")
-    insert("")
+    insert()
     insert("Sent from ProtonMail, encrypted email based in Switzerland.")
     m1.title(':(')
     mylist.pack(fill=BOTH)
@@ -140,7 +135,7 @@ def subshelp():
 def contrib():
     webbrowser.open("https://github.com/thetechrobo/bglugwatch-cleanslate", new=1) # SOURCE: gist.github.com/RandomResourceWeb/93e887facdb98937ab5d260d1a0df270
 # Tabs (source www.djangocentral.com/creating-tabbed-widget-with-python-for-gui-application/)
-#Create Tab Control
+#Create tab system
 TAB_CONTROL = ttk.Notebook(main)
 #Tab1
 TAB1 = ttk.Frame(TAB_CONTROL)
@@ -221,7 +216,7 @@ def article1():
     article1 = Toplevel()
     article1.title("Choosing a suitable email client")
     mylist = clist(article1)
-    def insert(string):
+    def insert(string=""):
         mylist.insert(END, string)
     insert("Well, for better or worse, I've chosen an email client. You'll recall that I had narrowed it down to four")
     insert("possibles, based upon the rather modest requirements that the client support multiple email accounts and")
@@ -229,11 +224,11 @@ def article1():
     insert("features of Eudora that I use every day or really like. ")
     Button(article1, text="View truncated spec list", command=showspec1).pack()
     insert("==================================COMMENTARY========================================================")
-    insert("")
+    insert()
     insert("Evolution has the most flexible filtering -- except that Balsa allows the use of an external program as a")
     insert("filter, which would be VERY nice for some of the spam filtering software I've seen. But all are as good as")
     insert("Eudora 3. (All but Mozilla have some support for regular expressions.)")
-    insert("")
+    insert()
     insert("I'm thinking that I'll be using PGP more in the future, so that's important. I also send and receive messages")
     insert("with \"return receipts\" so I'd like the client to handle that.")
     insert("A VERY important feature is the ability to leave a message on the server if it exceeds a certain size. I'm on")
@@ -251,7 +246,7 @@ def article1():
     insert("On the other hand, I may be unusual among Linux users in that I *like* a combined email-news-browser")
     insert("program like Mozilla. I've had a lot of problems in the Windoze environment getting my email to work with my")
     insert("browser and news reader. (If I didn't like Eudora so much, I might have switched to Netscape mail long ago.)")
-    insert("")
+    insert()
     insert("The new user interface will take some getting used to, and I'll miss some handy features. But until")
     insert("someone brings out Eudora for Linux, it's a price I'm willing to pay.")
     mylist.pack(fill=BOTH)
@@ -261,7 +256,7 @@ def article2():
     article2 = Toplevel()
     article2.title("Win4Lin review")
     mylist = clist(article2)
-    def insert(string):
+    def insert(string=""):
         mylist.insert(END, string)
     insert("Working")
     insert("on it...")
@@ -285,9 +280,9 @@ ttk.Label(TAB3, text='''FROM: LP
 SUBJECT: I hope everyone is well!
 "Hi all,..."''').pack()
 ttk.Button(TAB3, text="Read", command=ShowMessageOne).pack()
-ttk.Label(TAB3, text='''
-For messages direct to your mailbox, go to http://bglug.ca/mailman/listinfo/group_bglug.ca and sign
-up for the mailing list!''').pack()
+def openBROWSER():
+    webbrowser.open("http://bglug.ca/mailman/listinfo/group_bglug.ca")
+ttk.Button(TAB3, text='For messages direct to your mailbox, click here!', command=openBROWSER).pack()
 #TAB4
 ttk.Button(TAB4, text="Update cache", command=uc).pack()
 ttk.Label(TAB4, text="This button will update the cache of BGLUGwatch. \nIt will not work (and will say that it worked) if you didn't git clone the repo as it requires the .git subfolder. So, if you didn't clone the repo, don't touch this.").pack()
