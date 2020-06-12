@@ -17,8 +17,13 @@ from tkinter.ttk import * #so that all widgets use themes
 main = tkinter.Tk()
 menubar = Menu(main)
 main.title("BGLUGwatch")
-s = ttk.Style()
-s.theme_use('clam')
+try:
+    from ttkthemes import ThemedStyle
+    s = ThemedStyle(main)
+    s.set_theme("elegance")
+except:
+    s = ttk.Style()
+    s.theme_use('clam')
 # DECLARING
 def uc(): #source stackoverflow.com/questions/4760215/running-shell-command-and-capturing-the-output/9266901#9266901
     msg.showinfo("Attempting to update...", "Please wait while git does its job.")
@@ -49,6 +54,7 @@ def clist(winname): #create list & scrollbar
     scrollbar = Scrollbar(winname) #add scrollbar
     scrollbar.pack(side=RIGHT, fill=Y) #pack scrollbar
     mylist = Listbox(winname, yscrollcommand=scrollbar.set)#create list
+    scrollbar.config(command = mylist.yview)
     return mylist #return list
 def hello():
     win = Toplevel()
@@ -296,7 +302,9 @@ menubar.add_cascade(label="BGLUGwatch", menu=filemenu)
 viewmnu = Menu(menubar, tearoff=0)
 viewmnu.add_command(label="About box", command=hello)
 viewmnu.add_command(label="Next meeting", command=moreinfomeeting)
-viewmnu.add_command(label="Articles", command=Articles)
+def goToArticle():
+    TAB_CONTROL.select(1)
+viewmnu.add_command(label="Articles", command=goToArticle)
 viewmnu.add_separator()
 viewmnu.add_command(label="Exit BGLUGwatch", command=main.quit)
 menubar.add_cascade(label="View", menu=viewmnu)
