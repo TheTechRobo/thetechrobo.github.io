@@ -312,5 +312,5 @@ menubar.add_cascade(label="Utilities", menu=utilmnu)
 # display the menu
 main.config(menu=menubar)
 # show message on launch
-msg.showinfo("Thank you!", "Thank you all BGLUG members for a Great Meeting! See you next month!")
+msg.showinfo("Thank you!", "Thank you all BGLUG members for a great meeting! See you next month!")
 mainloop()
