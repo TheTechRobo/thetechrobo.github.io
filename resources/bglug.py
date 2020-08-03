@@ -29,7 +29,7 @@ def uc(): #source stackoverflow.com/questions/4760215/running-shell-command-and-
     msg.showinfo("Attempting to update...", "Please wait while git does its job.")
     output = subprocess.Popen(["git pull"],stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True) #Prepare the git pull
     response = output.communicate() #run git pull and get the output
-    response, _ = response
+    response, _ = response #turn the tuple into a...non-tuple
     response = response.decode("UTF-8")
     if  'Already up to date' in response:
         print(response)
@@ -313,4 +313,4 @@ menubar.add_cascade(label="Utilities", menu=utilmnu)
 main.config(menu=menubar)
 # show message on launch
 msg.showinfo("Thank you!", "Thank you all BGLUG members for a Great Meeting! See you next month!")
-main.mainloop()
+mainloop()
