@@ -1,3 +1,9 @@
+---
+title: Hilarious email i got
+---
+
+# Hilarious email i got
+
 The bandage was wound around the wound. 
 
 The farm was used to produce produce. 
