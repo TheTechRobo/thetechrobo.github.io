@@ -1,4 +1,4 @@
-# Why English is hard to learn
+# Why English is hard to learn (read until the end)
 
 The bandage was wound around the wound. 
 
