@@ -7,6 +7,8 @@ This website is archived. It's highly recommended to use [webbox](https://thetec
 
 # [I Agree that any bugs with this old website may not be fixed](old.md)
 
+<i>This page may be removed at any time without notice</i>
+
 <style>
   body {
     background-color: #3874ff
