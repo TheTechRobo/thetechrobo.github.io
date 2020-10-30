@@ -1,21 +1,11 @@
 ---
-title: Archived website
+title: WARNING
 ---
 
-# TheGitRobo
-###### TheTechRobo's GitHub website
+# WARNING
+This website is archived. It's highly recommended to use [webbox](https://thetechrobo.github.io/webbox). However, if you still need links not yet ported to Webbox, click the link below.
 
-Welcome to my GitHub website! This website contains info about my best repos on GitHub
-
-It also contains info about me
-
-
-[Drawer](https://thetechrobo.github.io/drawer)  
-[Blog](OptionIndex.html)  
-[My Byethost.com website](http://thetechrobo.byethost8.com)  
-[Save lives!](http://chng.it/4vHGN86bXJ)  
-[My Daily Driver](https://www.elivecd.org)  
-[Beta Website](https://thetechrobo.github.io/webbox)
+# [I Agree that any bugs with this old website may not be fixed](old.md)
 
 <style>
   body {
