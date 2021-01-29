@@ -9,7 +9,8 @@
 - https://hostingtribunal.com/blog/linux-statistics/#gref  
 - http://tiny.cc/linusachieve  
 - https://git-scm.com (image)  
-- https://subsurface-divelog.org/ (image)  
+- https://subsurface-divelog.org/ (image) 
+- http://www.supercoloring.com/pages/linux-tux-penguin (tracer image)
 
 (and that's about it I think)  
 
