@@ -10,3 +10,5 @@ This inspired other programs like reintroducing animals. Now there are community
 Many animals left; others died - the eggs didn't hatch and then the old fish died, so there was nothing left.  The damaged area covered thousands of kilometres! It spread so far we don't know exactly. 
 
 And the rocks are black because the smoke BURNED them - it's not natural
+
+This shows youy can do ANYTHING with just a vision and patience.
