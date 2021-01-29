@@ -1,0 +1,35 @@
+back of the box
+
+Environ 96.3 % des serveurs du monde utilisent Linux
+
+Quand tu utililises l'internet, tu utilises Linux, même si tu ne le sais pas. La monde ne peut pas fonctionner sans Linux. Linux a été créé par Linus Toralds en la coopération avec les programmes GNU. 
+
+Avec ce céréal tu comprendras plus de monsieur Torvalds. Aussi, ce céréal est vraiment bon pour la santé - il a de la vitamine A, B12, D, la calcium, le zinc, et la magnesium ! 
+
+bottom of the box
+
+Si tu peux aller dans le temps passé, quoi changeras-tu de Linux? 
+
+Pourquoi est-ce-que tu continue d'améliorer Linux? Est-ce-que tu l'aimes ou est-ce-que c'est ton emploi?
+
+Si tu peux dire UNE pièce d'conseil à les nouveaux programmeurs, quoi dis-tu ?
+
+nutrition facts
+- Né le 28 décembre 1969 dans Helsinki (à Finland)
+- Inscriré à l'université d'Helsinki en 1988, diplômé avec une maîtrise dans l'informatique - son thèse a été nommé "Linux - A Portable Operating System"
+- Commencé la travaille sur Linux en 1991
+- Première version bonne pour production de Linux est là en 1994. 
+- Travaillé à Transmeta de 1996 à 2003 (a bougé à la Californie avec sa famille pour ça)
+- Jusq'à 2005, la service propriétaire BitKeeper a été utilisé pour la dévéloppement de Linux. Mais il a fermé son version gratuit. Donc, Monsieur Torvalds a créé Git qui est une programme pour manager les versions d'une programme car les autres programmes similaires n'ont pas fonctionné pour il. 
+
+ingredients
+Je ne peux pas m'identifier à M. Torvalds. Je pense que c'est une bonne personne, mais il a également une forte opinion. Beaucoup de gens savent qu'il a eu beaucoup de crises où il a insulté des gens - un exemple est tiny.cc/linusmad. Maintenant, il est beaucoup plus poli.
+
+(before google translate rewrite: Je ne peux pas s'identifier à Monsieur Torvalds. Je pense qu'il est une bonne personne, mais il est aussi une personne fortement opiniâtre. Beaucoup des personnes savent qu'il a fait beaucoup de crises où il a insulté des personnes - une exemple est tiny.cc/linusmad. Maintenant, il est beaucoup plus poli.)
+
+english side panel:
+- Add logos of all his achievments. And sources. 
+
+sources Google Translate, WordReference, https://itsfoss.com/linus-torvalds-facts/, https://www.britannica.com/biography/Linus-Torvalds, https://computerhistory.org/profile/linus-torvalds/, http://tiny.cc/linusmad, https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/150px-NewTux.svg.png,  https://hostingtribunal.com/blog/linux-statistics/#gref, http://tiny.cc/linusachieve, https://git-scm.com, https://subsurface-divelog.org/
+(and that's about it I think)
+J'ai utilisé Google Translate pour la traduction ET pour faire que ma paragraphe pour INGREDIENTS section est plus court - c'était trop longue pour le petit section d'ingrédients. 
