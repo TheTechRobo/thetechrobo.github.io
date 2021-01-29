@@ -1,0 +1,6 @@
+Depuis 1979 le Canada est un participant à l'agence Européan de l'espace. Il contribue les astronauts.  
+Canadarm est un système robotique dans l'espace pour aider les astronauts. Il y a Canadarm 1 et 2.   
+Le Gateway est un projet international pour explorer la Lune. Le Canadarm aide à l'assemblé pour ça.  
+Pour les astronauts, voir l'année 1979  qui est en haut.  
+Les légumes hydroponiques ont été recherchés par l'université de Guelph. Ces plantes peuvent aggrondir sans la terre ! Ils ont faitent ces expèriences dans Nunavut où il n'y a pas beaucoup de la terre. Le but est pour avoir les plantes sur Mars.  
+En 1972, les gens d'université de Toronto sont les premiers pour prouver l'existence des trous noirs. Les autres ont savaient qu'ils ont existés mais ils ne pouvent pas PROUVER ça. Donc, avec une téléscope géant les gens d'université de Toronto ont prouvé que les trous noirs existent ! Ils sont des vieux étoiles qui ont explosé et à cause de ça, maintenant ils prendre TOUTES des choses - même la lumière - et c'est impossible de le retrouver. Tu peux être speghettifié ! I learned a lot of stuff from http://www.bbc.com/earth/story/20150525-a-black-hole-would-clone-you before this video.  
